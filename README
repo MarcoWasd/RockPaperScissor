@@ -1,0 +1,11 @@
+I have used TestNG  for unit testing as it provides tools for structured, modular and data based tests. With
+DataProvider I can build clear tests with a defined set of input and expected behaviour. Mockito helped to mock
+elements of Players objects (random and scanner) to focus the test on the getMove.
+
+The application flow starts asking the user info needed to start a particular mode. The mode itself asks specific info
+like the difficulty (you may want to have different AI for different modes). Then there is the game loop with the
+gamemanager using two players to return the result of the round. For single mode one player will be a Human player, the other
+will be the bot. Notice that in case of a multiplayer mode, the class will still work. Result is printed for a specific round
+and at the end of the game as well.
+
+I consider the code pretty clear and not needed of many comments.
